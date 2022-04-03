@@ -34,8 +34,8 @@
         </div>
       </div>
     </div>
-    <div id="section-1" class="text-center bg-[url('/about.jpg')] pb-20 bg-cover">
-      <h1 class="text-6xl uppercase font-oswald pt-20">
+    <div id="section-1" class="text-center bg-[url('/about.jpg')] pb-80 bg-cover">
+      <h1 class="text-6xl uppercase font-oswald text-center pt-20 px-24">
         The burger tastes better when you eat it with family
       </h1>
       <p class="font-roboto font-light text-gray-500 text-lg px-24 py-6 px-28">
