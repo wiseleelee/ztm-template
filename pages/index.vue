@@ -18,8 +18,8 @@
         </div>
       </div>
 
-      <div class="grid grid-cols-2 pb-20 pt-10">
-        <img src="hero-burger.png" class="pr-8 mt-10" alt="" />
+      <div class="grid grid-cols-2 pb-10 pt-10">
+        <img src="hero-burger.png" class="pr-8 mt-8" alt="" />
         <div>
           <h1 class="text-8xl text-white text-center font-lilita uppercase">
             Classic Burger
@@ -34,8 +34,8 @@
         </div>
       </div>
     </div>
-    <div id="section-1" class="text-center bg-[url('/about.jpg')] pb-80 bg-cover">
-      <h1 class="text-6xl uppercase font-oswald text-center pt-20 px-24">
+    <div id="section-1" class="text-center bg-[url('/about.jpg')] pb-60 bg-cover">
+      <h1 class="text-6xl uppercase font-oswald text-center pt-20">
         The burger tastes better when you eat it with family
       </h1>
       <p class="font-roboto font-light text-gray-500 text-lg px-24 py-6 px-28">
@@ -47,6 +47,24 @@
         <button class="font-oswald uppercase bg-red-500 text-white text-center py-3 px-8">
           Explore Full Menu
         </button>
+      </div>
+    </div>
+    <div id="section-3" class="text-center">
+      <h2 class="text-6xl font-oswald text-red-500 uppercase font-medium pt-20">
+        Our Crazy Burgers
+      </h2>
+      <p class="text-gray-500 font-light text-xl my-10 px-20">
+        Whether you are looking for the classics, our specialties, or just wraps, salads,
+        and fries. We have it all. We always have something that rewards your tastebud.
+      </p>
+      <div class="grid grid-cols-2 px-40 gap-5">
+        <div id="left-item-column">
+          <Item />
+          <Item />
+        </div>
+        <div id="right-item-column">
+          <Item />
+        </div>
       </div>
     </div>
   </div>
