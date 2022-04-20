@@ -59,11 +59,32 @@
       </p>
       <div class="grid grid-cols-2 px-40 gap-5">
         <div id="left-item-column">
-          <Item />
-          <Item />
+          <Item
+            image="crispy-chicken.jpg"
+            title="Crispy Chicken"
+            description="Chicken breast, chili sauce, tomatoes, pickles, coleslaw"
+            price="11.99"
+          />
+          <Item
+            image="ultimate-bacon.jpg"
+            title="Ultimate Bacon"
+            description="House beef patty, cheddar cheese, smokey bacon, onion, mustard"
+            price="14.99"
+          />
         </div>
         <div id="right-item-column">
-          <Item />
+          <Item
+            image="baa-baa.jpg"
+            title="Baa-Baa Black Sheep"
+            description="American cheese, tomato relish, avocado, juicy lamb patty"
+            price="15.75"
+          />
+          <Item
+            image="double-burger.jpg"
+            title="Double Burger"
+            description="2 X beef patties, cheddar cheese, mustard, pickles, tomatoes"
+            price="15.35"
+          />
         </div>
       </div>
     </div>
