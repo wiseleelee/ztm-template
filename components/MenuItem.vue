@@ -13,12 +13,19 @@
         >RM{{ item.price.toFixed(2) }}
       </span>
     </p>
-    <button class="button font-oswald uppercase border py-2 px-3">Add to cart</button>
+    <button class="button font-oswald uppercase border py-2 px-3" @click="addItem">
+      Add to cart
+    </button>
   </div>
 </template>
 
 <script>
 export default {
   props: ['item'],
+  methods: {
+    addItem() {
+      this.$store.commit('addItem', this.item);
+    },
+  },
 };
 </script>

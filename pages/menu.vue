@@ -12,8 +12,8 @@
           >
             <li>About Us</li>
             <li>Our Menu</li>
-            <li>Locations</li>
             <li>Contacts</li>
+            <li>Cart</li>
           </ul>
         </div>
       </div>
