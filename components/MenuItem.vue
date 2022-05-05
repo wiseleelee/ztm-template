@@ -10,8 +10,8 @@
     <p class="mt-5 mb-8">
       <span
         class="rounded rounded-lg bg-amber-800 text-yellow-400 font-oswald font-bold text-xl px-5 py-2"
-        >RM11.99</span
-      >
+        >RM11.99
+      </span>
     </p>
     <button class="button font-oswald uppercase border py-2 px-3">Add to cart</button>
   </div>
