@@ -10,10 +10,9 @@
           <ul
             class="grid grid-cols-4 text-lg font-oswald text-white uppercase pt-5 text-overflow: ellipsis"
           >
-            <li>About Us</li>
-            <li>Our Menu</li>
+            <NuxtLink to="/menu">Our Menu</NuxtLink>
             <li>Contacts</li>
-            <li>Cart</li>
+            <NuxtLink to="/cart">Cart</NuxtLink>
           </ul>
         </div>
       </div>

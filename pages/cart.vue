@@ -23,24 +23,28 @@
       </h1>
     </div>
 
-    <table>
+    <table class="table-auto w-2/3 mt-20 ax-auto">
       <thead>
         <tr>
-          <th>Name</th>
-          <th>Price</th>
+          <th class="text-left">Name</th>
+          <th class="text-right">Price</th>
           <th>Quantity</th>
-          <th>Total</th>
+          <th class="text-right">Total</th>
           <th>Remove</th>
         </tr>
       </thead>
     </table>
     <tbody>
-      <tr v-for="order in $store.state.orders" :key="order.name">
-        <td>{{ order.name }}</td>
-        <td>{{ order.price }}</td>
-        <td>{{ order.quantity }}</td>
-        <td>{{ order.price * order.quantity }}</td>
-        <td><button>✖️</button></td>
+      <tr
+        v-for="order in $store.state.orders"
+        :key="order.name"
+        class="font-oswald uppercase text-2xl border-b"
+      >
+        <td class="py-10">{{ order.name }}</td>
+        <td class="text-right">RM {{ order.price.toFixed(2) }}</td>
+        <td class="text-center">{{ order.quantity }}</td>
+        <td class="text-right">{{ order.price * order.quantity }}</td>
+        <td class="text-center"><button>✖️</button></td>
       </tr>
     </tbody>
   </div>
