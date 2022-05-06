@@ -33,19 +33,19 @@
           <th>Remove</th>
         </tr>
       </thead>
+      <tbody>
+        <tr
+          v-for="order in $store.state.orders"
+          :key="order.name"
+          class="font-oswald uppercase text-2xl border-b"
+        >
+          <td class="py-10">{{ order.name }}</td>
+          <td class="text-right">RM {{ order.price.toFixed(2) }}</td>
+          <td class="text-center">{{ order.quantity }}</td>
+          <td class="text-right">{{ order.price * order.quantity }}</td>
+          <td class="text-center"><button>✖️</button></td>
+        </tr>
+      </tbody>
     </table>
-    <tbody>
-      <tr
-        v-for="order in $store.state.orders"
-        :key="order.name"
-        class="font-oswald uppercase text-2xl border-b"
-      >
-        <td class="py-10">{{ order.name }}</td>
-        <td class="text-right">RM {{ order.price.toFixed(2) }}</td>
-        <td class="text-center">{{ order.quantity }}</td>
-        <td class="text-right">{{ order.price * order.quantity }}</td>
-        <td class="text-center"><button>✖️</button></td>
-      </tr>
-    </tbody>
   </div>
 </template>
